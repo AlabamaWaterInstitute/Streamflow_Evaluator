@@ -1,7 +1,7 @@
 
 ![Github_top](https://user-images.githubusercontent.com/33735397/206313977-e67ba652-3340-4a1b-b1d1-141d8d5001f2.PNG)
 
-# Streamflow_Evaluator
+# Research-Oriented Streamflow Evaluation Tool (ROSET)
 
 ![GitHub](https://img.shields.io/github/license/whitelightning450/Streamflow_Evaluator?logo=GitHub&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/whitelightning450/Streamflow_Evaluator?style=plastic)
@@ -15,7 +15,7 @@
 ![GitHub milestones](https://img.shields.io/github/milestones/open/whitelightning450/Streamflow_Evaluator?style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/whitelightning450/Streamflow_Evaluator?style=plastic)
 
-The streamflow evaluator compares modeled streamflow to in situ USGS monitoring sites, with interactive visualizations supporting an in-depth analysis.
+The streamflow evaluation tool (ROSET) compares modeled streamflow to in situ USGS monitoring sites, with interactive visualizations supporting an in-depth analysis.
 
 ## Application Overview
 National-scale streamflow modeling remains a modern challenge, as changes in the underlying hydrology from land use and land cover (LULC) change, anthropogentic streamflow modification, and general process components (reach length, hydrogeophysical processes, precipitation, temperature, etc) greatly influence  hydrological modeling.
@@ -28,7 +28,7 @@ While designed to us the NWM version 2.1 retrospective dataset, with minimal mod
 By using the Streamflow_Evaluator tool, researchers can identify locations where a model may benefit from further training/calibration/parameterization or a need for new model processes/features (e.g., integration of reservoir release operaitons) to ultimately create new post-processing methods and/or hydrological modeling formulations to improve streamflow prediction capabilities with respect to modeling needs (e.g., stormflow, supply, emergency management, flooding, etc).   
 
 ### Data Access
-The Streamflow_Evaluator requires access to USGS/NWIS and colocated model output data for comparision.
+The Research-Oriented Streamflow Evaluation Tool (ROSET) requires access to USGS/NWIS and colocated model output data for comparision.
 While all data is publically available through the respective agencies, data download for analysis prevents timely model evaluation. 
 The Alabama Water Institute at the University of Alabama hosts NWM v2.1 for all colocated USGS monitoring stations, and with the package capable of accessing the observed and predicted data, the package supports a fast and repeatable tool for evaluating modeled streamflow performance.
 We currently provide cloud hosted data via Box, please contact us for access.
